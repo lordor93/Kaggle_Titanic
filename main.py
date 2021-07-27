@@ -13,13 +13,8 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 from ML_training import *
 from Helper_funcs import titanic_data_prep*
-# !pip install catboost
-# !pip install lightgbm
-# !pip install xgboost
 
-from xgboost import XGBClassifier
-from lightgbm import LGBMClassifier
-from catboost import CatBoostClassifier
+
 
 import time
 from contextlib import contextmanager
