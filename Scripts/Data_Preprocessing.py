@@ -1,7 +1,7 @@
 from sklearn.preprocessing import StandardScaler, LabelEncoder
 import pandas as pd
 import numpy as np
-from Scripts.helper_functions import *
+from Scripts.Helper_functions import *
 
 def titanic_data_prep(dataframe):
     print("Data Preprocessing...")
