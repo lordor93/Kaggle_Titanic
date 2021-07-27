@@ -4,6 +4,9 @@ from sklearn.model_selection import cross_validate, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
+from xgboost import XGBClassifier
+from lightgbm import LGBMClassifier
+
 
 ######################################################
 # Base Models
