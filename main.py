@@ -11,9 +11,9 @@ from sklearn.model_selection import cross_validate, GridSearchCV
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
-from ML_training import *
-from Helper_funcs import titanic_data_prep*
-
+from Scripts.ML_training import *
+from Scripts.Helper_funcs import titanic_data_prep*
+from Scripts.Helper_funcs import *
 
 
 import time
@@ -59,28 +59,6 @@ def main(base, dump, scoring):
 if __name__ == "__main__": # Main block (same with main class in other OOP languages
 
     namespace = get_namespace()
-
-    time.sleep(7)
-
-    if namespace.best:
-        print("Data Preprocessing....")
-        time.sleep(5)
-        print("Data Preprocessing....done.", end="\n\n")
-
-        print("Hyperparameter Tuning....")
-        time.sleep(10)
-        print("Hyperparameter Tuning....done.", end="\n\n")
-
-        print("Calculating Final Scores....")
-        time.sleep(5)
-        print("Final AUC: 92", "Final F1-Score: 93", end="\n\n")
-        time.sleep(10)
-
-        print("and you can trust this results...", end="\n\n")
-        time.sleep(10)
-        print("şaka şaka. bu sonuçlar patron gelince çalıştırılacak kodun sonuçları.", end="\n\n")
-        time.sleep(10)
-
-    else:
-        with timer("Full Script Running Time"):
-            main(base=namespace.base, dump=namespace.dump, scoring=namespace.scoring)
+    
+    with timer("Full Script Running Time"):
+        main(base=namespace.base, dump=namespace.dump, scoring=namespace.scoring)
