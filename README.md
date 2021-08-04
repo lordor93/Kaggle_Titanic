@@ -4,8 +4,8 @@
 The goal is to predict the survival or the death of a given passenger based on a set of variables describing him such as his age, his sex, or his passenger class on the boat
 # Data Dictionary
 ## Variable	-- Definition	Key
-- survival - Survival	- 0 = No, 1 = Yes
-- pclass - Ticket class	-1 = 1st, 2 = 2nd, 3 = 3rd
+- survival - Survival	-> 0 = No, 1 = Yes
+- pclass - Ticket class ->	1 = 1st, 2 = 2nd, 3 = 3rd
 - sex	-     Sex	
 - Age	- Age in years	
 - sibsp - # of siblings / spouses aboard the Titanic	
@@ -22,13 +22,10 @@ The goal is to predict the survival or the death of a given passenger based on a
 
 - age: Age is fractional if less than 1. If the age is estimated, is it in the form of xx.5
 
-- sibsp: The dataset defines family relations in this way...
-- Sibling = brother, sister, stepbrother, stepsister
-- Spouse = husband, wife (mistresses and fiancés were ignored)
-
+- sibsp: The dataset defines family relations in this way ->
+ Sibling = brother, sister, stepbrother, stepsister 
+-> Spouse = husband, wife (mistresses and fiancés were ignored)
 - parch: The dataset defines family relations in this way...
-- Parent = mother, father
-- Child = daughter, son, stepdaughter, stepson
 - Some children travelled only with a nanny, therefore parch=0 for them.
 # Note
 To run the project, it is sufficient to run the "python main.py" command from the terminal in the project directory.
