@@ -20,7 +20,7 @@ import time
 from contextlib import contextmanager
 
 
-@contextmanager
+@contextmanager # decorator
 def timer(title):
     t0 = time.time()
     yield
