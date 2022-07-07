@@ -15,7 +15,6 @@ from Scripts.ML_training import *
 from Scripts.Helper_funcs import titanic_data_prep*
 from Scripts.Helper_funcs import *
 
-
 import time
 from contextlib import contextmanager
 
