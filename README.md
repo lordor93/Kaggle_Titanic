@@ -4,7 +4,7 @@
 The goal is to predict the survival or the death of a given passenger based on a set of variables describing him such as his age, his sex, or his passenger class on the boat
 # Data Dictionary
 ## Variable	-- Definition	Key
-- survival - Survival	-> 0 = No, 1 = Yes
+-survival - Survival	-> 0 = No, 1 = Yes
 - pclass - Ticket class ->	1 = 1st, 2 = 2nd, 3 = 3rd
 - sex	-     Sex	
 - Age	- Age in years	
