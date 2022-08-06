@@ -1,7 +1,7 @@
 ######################################################
 # Automated Machine Learning with Custom Pipeline
 ######################################################
-# Hitter icinde bunun benzerini yap
+
 
 import joblib
 import argparse
@@ -29,7 +29,7 @@ def timer(title):
 ######################################################
 # Main
 ######################################################
-# decorator (sonuc olarak baska method dönüyor)
+
 def main(base, dump, scoring):
 
     with timer("Data Preprocessing"):
